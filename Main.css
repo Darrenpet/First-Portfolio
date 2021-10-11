@@ -1,15 +1,22 @@
 * {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 /* Set a background color */
 body {
-  background-color: #474e5d;
+  height: 100vh;
+  place-items: center;
+  background-image: url(images/oc-gonzalez-FbN2z3bEaSs-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
   font-family: Helvetica, sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
+  padding: 100px;
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
@@ -132,4 +139,24 @@ body {
   .right {
     left: 0%;
   }
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+li {
+  display: inline-block;
+}
+ul {
+  background-color: red;
+  padding: 20px;
+}
+a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
 }

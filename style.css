@@ -34,7 +34,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background-image: url(https://picsum.photos/1920);
+  background-image: url(images/oc-gonzalez-FbN2z3bEaSs-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -72,7 +72,7 @@ a {
   font-family: sans-serif;
 }
 frame {
-  margin: o;
+  margin: 0;
   padding: none;
   border: none;
   width: 100px;
