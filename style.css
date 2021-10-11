@@ -1,94 +1,92 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-header{
-	padding: 50px;
+header {
+  padding: 50px;
   text-align: center;
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-sizing: inherit;
   height: 300px;
 }
 .bigheadline {
-	font-family: 'Times New Roman', serif;
-	font-weight: 100;
-	font-size: 8em;
-	margin: 0;
+  font-family: "Times New Roman", serif;
+  font-weight: 100;
+  font-size: 8em;
+  margin: 0;
   color: rgb(182, 97, 97);
 }
 .subheadline {
-	font-family: 'Times New Roman', serif;
-	font-weight: 200;
-	font-size: 2em;
-	margin: 0;
+  font-family: "Times New Roman", serif;
+  font-weight: 200;
+  font-size: 2em;
+  margin: 0;
   text-align: center;
   color: rgb(184, 97, 97);
 }
-body{
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    background-image: url(https://picsum.photos/1920);
-    background-size: cover;
-    background-position: center;
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(https://picsum.photos/1920);
+  background-size: cover;
+  background-position: center;
 }
 
-form{
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+form {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-#input{
-    margin: 10px;
-    border-radius: 20px;
-    padding: 10px;   
+#input {
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
 }
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
- }
-  li{
-    display: inline-block
-  }
-  ul{
-    background-color: red;
-    padding: 20px 
-  }
-  a{
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-    font-family: sans-serif;
-  }
-  frame{
-      margin: o;
-      padding: none;
-      border: none;
-      width: 100px;
-      height: 50px;
-  }
-  table{
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 500px;
-    height: 500px;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-
- 
+li {
+  display: inline-block;
+}
+ul {
+  background-color: red;
+  padding: 20px;
+}
+a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+frame {
+  margin: o;
+  padding: none;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+table {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 500px;
+  height: 500px;
+}
 
 /* very important */
