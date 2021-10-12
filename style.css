@@ -4,36 +4,6 @@
   box-sizing: border-box;
 }
 
-.header {
-  padding: 50px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-sizing: inherit;
-  height: 300px;
-}
-
-.bigheadline {
-  font-family: "Times New Roman", serif;
-  font-weight: 100;
-  font-size: 8em;
-  margin: 0;
-  color: rgb(182, 97, 97);
-}
-
-.subheadline {
-  font-family: "Times New Roman", serif;
-  font-weight: 200;
-  font-size: 2em;
-  margin: 0;
-  text-align: center;
-  color: rgb(184, 97, 97);
-}
-
 body {
   height: 100vh;
   display: grid;
@@ -81,6 +51,37 @@ a {
   font-family: sans-serif;
 }
 
+.image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  padding: 0px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  flex-direction: row;
+  text-align: center;
+}
+
+button:hover {
+  background-color: lightslategray;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ffffff;
+  border-color: rgb(0, 26, 255);
+}
+
 frame {
   margin: 0;
   padding: none;
@@ -115,8 +116,8 @@ table {
 
 .flip-card-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
@@ -130,8 +131,8 @@ table {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -145,8 +146,8 @@ table {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
-  width: 120%;
-  height: 120%;
+  width: 300px;
+  height: 300px;
 }
 
 /* very important */

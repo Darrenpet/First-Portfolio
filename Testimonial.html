@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testimonial</title>
+    <style>
+      .flip {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -20,8 +28,7 @@
     <br />
     <h1>Testimonial</h1>
     <h3>Hover over the placeholders</h3>
-
-    <div class="main">
+    <div class="flip">
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -85,7 +92,6 @@
           </div>
           <div class="flip-card-back">
             <h1>Ferrari 488</h1>
-            <br />
             <p>
               The Ferrari 488 (Type F142M) is the first mid-engine Ferrari to
               use a turbocharged V8 since the F40.
