@@ -3,7 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
-header {
+
+.header {
   padding: 50px;
   text-align: center;
   background: rgba(255, 255, 255, 0.25);
@@ -15,6 +16,7 @@ header {
   box-sizing: inherit;
   height: 300px;
 }
+
 .bigheadline {
   font-family: "Times New Roman", serif;
   font-weight: 100;
@@ -22,6 +24,7 @@ header {
   margin: 0;
   color: rgb(182, 97, 97);
 }
+
 .subheadline {
   font-family: "Times New Roman", serif;
   font-weight: 200;
@@ -30,6 +33,7 @@ header {
   text-align: center;
   color: rgb(184, 97, 97);
 }
+
 body {
   height: 100vh;
   display: grid;
@@ -47,30 +51,36 @@ form {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
 #input {
   margin: 10px;
   border-radius: 20px;
   padding: 10px;
 }
+
 nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 }
+
 li {
   display: inline-block;
 }
+
 ul {
   background-color: red;
   padding: 20px;
 }
+
 a {
   padding: 20px;
   color: white;
   text-decoration: none;
   font-family: sans-serif;
 }
+
 frame {
   margin: 0;
   padding: none;
@@ -78,15 +88,15 @@ frame {
   width: 100px;
   height: 50px;
 }
+
 table {
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .main {
