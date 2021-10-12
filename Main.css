@@ -11,7 +11,7 @@ body {
   background-image: url(images/oc-gonzalez-FbN2z3bEaSs-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  font-family: Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -159,4 +159,9 @@ a {
   color: white;
   text-decoration: none;
   font-family: sans-serif;
+}
+
+.heading {
+  color: black;
+  text-align: center;
 }
