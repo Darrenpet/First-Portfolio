@@ -32,7 +32,7 @@ body {
 .table1 {
   width: 500px;
   height: 500px;
-  top: -260px;
+  top: -150px;
   margin: 50px;
   position: relative;
   left: 300px;
@@ -41,6 +41,7 @@ body {
 .iframe1 {
   display: grid;
   position: relative;
+  top: -350px;
 }
 
 nav {
